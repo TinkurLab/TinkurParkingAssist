@@ -1,6 +1,6 @@
-Tinkur Parking Assist
+# Tinkur Parking Assist
 
-# Overview
+## Overview
 
 Tinkur Parking Assist is a helpful project to help you park your car in the right place in a garage.  After all, you need all that other space for making ;-)
 
