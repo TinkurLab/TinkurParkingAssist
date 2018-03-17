@@ -1,5 +1,9 @@
 int proximityPin = 0; //analog pin 0
 int redPin = 11;
+//The following tutorials, code, and libraries are used in this project:
+// library https://github.com/RobTillaart/Arduino/tree/master/libraries/RunningMedian
+// tutorial https://github.com/arduino/Arduino/issues/4936 (how to include Arduino library in project folder
+#include "src/RunningMedian/RunningMedian.h"
 int greenPin = 10;
 int bluePin = 9;
 
