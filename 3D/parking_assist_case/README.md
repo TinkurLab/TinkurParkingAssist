@@ -33,7 +33,8 @@ Hatchbox PLA 1.75mm
 * v4
     - started a new v2 model https://www.tinkercad.com/things/5iqU6QGvB0J-tinkur-parking-assist-case-v2.  Simplified design, removing a ton of combined parts to reduce likelyhood of measurement / combine errors.  Also switch top design from slide in to clip on to reduce need for long wires to connect ultrasonic sensor and led to Arduino.  Increased side of LED hole by 2mm to allow better seating.
     - MVP.  Lid snaps in place well.  Made a mistake for ultrasonic sensor hole size but resulted in the sensor tension mounting which is awesome. 
-     
+* v5
+    - updated v2 model https://www.tinkercad.com/things/5iqU6QGvB0J-tinkur-parking-assist-case-v2.  Left tension in ultrasonic sensor holes but reduced width.  Also reduced openings around usb and power to reduce opening size.  Also increased internal wall thickness to better snugly hold Arudino as per v1 design.    
 
 
 
