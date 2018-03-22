@@ -5,9 +5,9 @@
 
 #include "src/RunningMedian/RunningMedian.h"
 
-int redPin = 11; 
+int redPin = 9; 
 int greenPin = 10;
-int bluePin = 9;
+int bluePin = 11;
 int trigPin = 5; // Sensor Trip pin connected to Arduino pin D5
 int echoPin = 6; // Sensor Echo pin connected to Arduino pin D6
 long TempDistance = 0; // A variable to store the temporary distance
@@ -42,10 +42,10 @@ void loop() {
   int medianDistance = samples.getMedian();
 
   if(counter < 20){ // Do the rest if the car is still moving
-    if (medianDistance < 68 && medianDistance > 38) {
+    if (medianDistance < 68 && medianDistance > 36) {
       setColor(255, 255, 0);  // yellow
       Serial.println("case 1");
-    } else if (medianDistance <= 38 && medianDistance >= 30) {
+    } else if (medianDistance <= 36 && medianDistance >= 30) {
       setColor(0, 255, 0);  // green
       Serial.println("case 2");
     } else if (medianDistance < 30) {
