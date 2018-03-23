@@ -10,6 +10,10 @@
 **STL**
 See STL file in this directory
 
+Also https://www.thingiverse.com/thing:2836728
+
+Also https://www.tinkercad.com/things/5iqU6QGvB0J-tinkur-park-assist-case
+
 **Slice / Print Settings**
 See Simplify 3D FFF file in this directory
 
